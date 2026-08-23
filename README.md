@@ -13,7 +13,7 @@ Gaming and rewards component candidate for the SKYCOIN4444 ecosystem.
 
 **Supporting Services → Gaming / Rewards**
 
-This repository is a candidate source for gaming, rewards, leaderboards, and related product capabilities. It should be compared with the canonical platform, wallet/finance, realtime, security, and any other gaming implementations before integration.
+This repository is a candidate source for gaming, rewards, leaderboards, and related product capabilities. It should be compared with the canonical platform, wallet/finance, realtime, security, and other gaming implementations before integration.
 
 ## Truthful status
 
@@ -23,7 +23,7 @@ This repository is a candidate source for gaming, rewards, leaderboards, and rel
 - Production deployment: **not verified**
 - Live games, wagering, or rewards: **not claimed**
 
-The previous README described the project as professional-grade and enterprise-ready without sufficient implementation evidence. This README separates repository presence from production readiness.
+The current package metadata calls the module production-grade, but its build suppresses TypeScript failures and its test/lint commands only print success. Those scripts are not evidence that validation passes. fileciteturn160file0
 
 ## Consolidation approach
 
