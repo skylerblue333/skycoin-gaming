@@ -1,44 +1,40 @@
-<!-- PORTFOLIO PROJECT PROFILE: maintained by the repository owner -->
-
-## Project profile and code-audit snapshot
-
-**What this is:** **skycoin-gaming** is a public repository described as: “Gaming & Rewards - Crypto games, leaderboards #SkyCoin4444 #AI #Blockchain #DevOps #Innovation” Its dominant language signals are **TypeScript (8 files)**.
-
-**Why it has value:** Its value is best understood through the implementation evidence currently present in the repository: **27 tracked files** were observed in the shallow audit, with the source structure and existing documentation providing the project’s specific context. This README does not treat a prototype, experiment, or archive as a production system without supporting evidence.
-
-**Implementation evidence:** No test-related file was detected by filename heuristics.; 1 dependency or package manifest(s) detected; 3 build/CI/infrastructure signal(s) detected; and 3 documentation or governance file(s) detected. Test filenames observed include none detected. Dependency or package files include `package.json`. Build, CI, or infrastructure signals include `Dockerfile`, `docker-compose.yml`, `.github/workflows/ci.yml`.
-
-**Current status:** The repository is tracked on the `main` branch. The existing source tree, configuration, tests, workflows, and documentation remain authoritative for supported behavior and maturity. A code audit is not a production-readiness certification, and the presence of a test or workflow file does not establish that all checks pass.
-
-**Relationship to the wider portfolio:** This repository is one focused component of the broader Skyler Blue Spillers portfolio across AI, software engineering, cloud and DevOps, cybersecurity, blockchain, finance, education, social systems, and creative work. It may provide a service boundary, implementation pattern, experiment, archive, or reusable idea for related repositories. Treat repositories as technical dependencies only where documented interfaces and verified project requirements support that relationship.
-
-**Quality and security note:** No obvious secret-like pattern was detected by the limited static scan; this is not a substitute for a security audit. No TODO/FIXME marker was detected in the scanned text files.
-
----
-
 # Skycoin Gaming
 
-![GitHub stars](https://img.shields.io/github/stars/skylerblue333/skycoin-gaming?style=flat-square)
-![GitHub license](https://img.shields.io/github/license/skylerblue333/skycoin-gaming?style=flat-square)
+Gaming and rewards component candidate for the SKYCOIN4444 ecosystem.
 
-## 🌟 Overview
-**skycoin-gaming** is a professional-grade project within the **SkyCoin4444** ecosystem. It focuses on delivering high-value solutions in the domain of **TypeScript**.
+## Current repository evidence
 
-## 🚀 Key Features
-- **Scalable Architecture**: Designed for enterprise-level growth and performance.
-- **Modern Standards**: Implements best practices for clean code and maintainability.
-- **Robust Integration**: Built to work seamlessly within modern cloud-native environments.
+- Public TypeScript repository on `main`.
+- 27 tracked files were observed in the current audit snapshot.
+- `package.json`, Docker configuration, Docker Compose configuration, and GitHub Actions CI configuration are present.
+- No test-related filename was detected by the current audit.
 
-## 🛠️ Technology Stack
-- **Primary Domain**: TypeScript
-- **Ecosystem**: SkyCoin4444 Digital Platform
+## Ecosystem role
 
-## 📂 Structure
-The project is organized into a modular structure to ensure clarity and ease of development.
+**Supporting Services → Gaming / Rewards**
 
-## 👨‍💻 Author
-**Skyler Blue Spillers**
-*Professional Chess Player & Software Engineer*
+This repository is a candidate source for gaming, rewards, leaderboards, and related product capabilities. It should be compared with the canonical platform, wallet/finance, realtime, security, and any other gaming implementations before integration.
 
----
-*Powered by SkyCoin4444*
+## Truthful status
+
+- Source/configuration: **present**
+- Canonical integration: **pending implementation comparison**
+- Automated tests: **not established by the current repository evidence**
+- Production deployment: **not verified**
+- Live games, wagering, or rewards: **not claimed**
+
+The previous README described the project as professional-grade and enterprise-ready without sufficient implementation evidence. This README separates repository presence from production readiness.
+
+## Consolidation approach
+
+Preserve the existing TypeScript source and configuration. Compare it with other gaming, realtime, wallet, payment, and security implementations. Consolidate verified reusable game-domain capabilities into the canonical gaming boundary rather than creating duplicate services.
+
+For missing capabilities, prefer mature public open-source game/server infrastructure when appropriate, after reviewing license compatibility and security/maintenance posture. Do not introduce wagering or financial functionality without the required legal, security, and product controls.
+
+## Production requirements
+
+Before production promotion, establish real tests, strict build/type validation, authentication and authorization, anti-cheat controls, rate limiting, secure wallet/payment boundaries where applicable, observability, abuse prevention, reproducible CI, and end-to-end deployment verification.
+
+## License
+
+See the checked-in repository license and applicable third-party dependency licenses.
